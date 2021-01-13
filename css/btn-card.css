@@ -1,0 +1,20 @@
+.btn__card {
+  position: absolute;
+  top: 20px;
+  right: 0;
+}
+
+.btn--edit {
+  background-color: lightskyblue;
+}
+
+.btn--delete {
+  background-color: red;
+}
+
+@media (max-width: 399px) {
+  .btn__card {
+    position: static;
+    right: 5px;
+  }
+}
